@@ -10,11 +10,10 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
-        result = []
+        result = set()
         while(head):
-            result.append(head)
-            for i in result:
-                if head.next == i:
-                    return True
+            if head in result:
+                return True
+            result.add(head)
             head = head.next
         return False
