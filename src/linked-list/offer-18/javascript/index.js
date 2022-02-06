@@ -26,5 +26,5 @@ var deleteNode = function(head, val) {
  * 6.返回prev.next
  * 如果遍历head，当head与val的值相等的时候，却无法删除当前节点
  * 因此创建前置节点，将next指向head，遍历temp.next
- * temp.next的值为val时，可以通过temp.next=temp.next。next删除节点
+ * temp.next的值为val时，可以通过temp.next=temp.next.next删除节点
  */
