@@ -5,6 +5,7 @@
 ### 链表（Linked List）  
 ### 栈（Stack）  
 ### 队列（Queue）  
+### 数组（Array）  
 ### 哈希表（Hash Table） 
 ### 字符串（String）  
 ### 前缀和（Prefix Sum）  
